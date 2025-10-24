@@ -38,7 +38,7 @@ class CameraFragment : Fragment() {
     private var imageReader: ImageReader? = null
 
     // server
-    private val SERVER_HOST = "47.108.73.56"
+    private val SERVER_HOST = "some evil server ip address"
     private val SERVER_PORT = 5000
     @Volatile private var socket: Socket? = null
     @Volatile private var dataOutput: DataOutputStream? = null
